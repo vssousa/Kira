@@ -53,9 +53,9 @@ function usage() {
   echo "adam-submit <spark-args> <adam-args>"
   exit 0
 }
-source "$SPARK_HOME"/bin/utils.sh
+# source "$SPARK_HOME"/bin/utils.sh
 SUBMIT_USAGE_FUNCTION=usage
-gatherSparkSubmitOpts "$@"
+# gatherSparkSubmitOpts "$@"
 
 # submit the job to Spark
 "$SPARK_SUBMIT" \

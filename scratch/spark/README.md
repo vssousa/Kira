@@ -1,5 +1,7 @@
 Compilation instructions on MAC
+
 1. Install jfits-0.94.jar
+
 mvn install:install-file -Dfile=libs/jfits-0.94.jar -DgroupId="org.esa" -DartifactId="fits" -Dpackaging="jar" -Dversion="0.94"
 
 2. Build Kira
@@ -13,7 +15,9 @@ Spark: 272 objects were detected
 
 
 Compilation instructions on EC2
+
 Install jfits-0.94 jar
+
 mvn install:install-file -Dfile=libs/jfits-0.94.jar -DgroupId="org.esa" -DartifactId="fits" -Dpackaging="jar" -Dversion="0.94"
 
 Compile the SEP library
